@@ -14,7 +14,7 @@ Rapid SSH is a lightweight tool developed in Go, utilizing the Bubble Tea framew
 - Cross-Platform Compatibility: Works seamlessly on macOS, Linux, and other platforms supporting Go.
 
 ## Screenshots
-
+![App Screenshot](images/sc3.gif)
 ![App Screenshot](images/sc1.png)
 ![App Screenshot](images/sc2.png)
 
