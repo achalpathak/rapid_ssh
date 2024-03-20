@@ -1,6 +1,6 @@
 module rapid_ssh
 
-go 1.22.1
+go 1.22
 
 require (
 	github.com/charmbracelet/bubbles v0.18.0
