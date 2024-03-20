@@ -1,0 +1,32 @@
+builds:
+  - binary: rssh
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -mod=vendor
+
+release:
+  prerelease: auto
+
+universal_binaries:
+  - replace: true
+
+brews:
+  -
+    name: rapid_ssh
+    homepage: "https://github.com/achalpathak/rapid_ssh"
+    tap:
+      owner: achalpathak
+      name: homebrew-achalpathak
+    commit_author:
+      name: achal_pathak
+      email: pathak.achal5@gmail.com
+
+checksum:
+  name_template: 'checksums.txt'
