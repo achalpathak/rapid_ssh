@@ -3,7 +3,6 @@
 
 
 # Rapid SSH
-
 Rapid SSH is a lightweight tool developed in Go, utilizing the Bubble Tea framework, that allows users to easily manage and connect to SSH servers with minimal effort. It provides a simple interface for selecting SSH servers from a pre-configured list and seamlessly connecting to them.
 
 ## Features
